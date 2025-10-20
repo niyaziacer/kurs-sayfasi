@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurs 2: VolBrain / ITK-SNAP ile Beyin Yapısı Segmentasyonu ve 3B Modelleme</title>
     <style>
-        /* Temel Stiller */
         * {
             margin: 0;
             padding: 0;
@@ -25,7 +24,6 @@
             padding: 0 20px;
         }
         
-        /* Header */
         header {
             background: linear-gradient(135deg, #4c51bf 0%, #667eea 100%);
             color: white;
@@ -44,7 +42,6 @@
             opacity: 0.9;
         }
         
-        /* Bölümler */
         section {
             padding: 3rem 0;
         }
@@ -57,7 +54,6 @@
             border-bottom: 2px solid #e2e8f0;
         }
         
-        /* Kartlar */
         .card {
             background: white;
             border-radius: 10px;
@@ -72,13 +68,6 @@
             box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
         }
         
-        .card-title {
-            color: #4c51bf;
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-        }
-        
-        /* Tablo */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -100,7 +89,6 @@
             background-color: #f7fafc;
         }
         
-        /* Buton */
         .btn {
             display: inline-block;
             background-color: #4c51bf;
@@ -117,7 +105,6 @@
             background-color: #434190;
         }
         
-        /* Footer */
         footer {
             background-color: #2d3748;
             color: white;
@@ -126,14 +113,6 @@
             margin-top: 3rem;
         }
         
-        /* Grid */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-        }
-        
-        /* Liste */
         ul {
             list-style-type: none;
         }
@@ -152,7 +131,6 @@
             left: 0;
         }
         
-        /* Linkler */
         a {
             color: #4c51bf;
             text-decoration: none;
@@ -162,7 +140,26 @@
             text-decoration: underline;
         }
         
-        /* Responsive */
+        .email-btn {
+            display: inline-block;
+            background-color: #4c51bf;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+        
+        .email-btn:hover {
+            background-color: #434190;
+            text-decoration: none;
+            color: white;
+        }
+        
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2rem;
@@ -179,11 +176,15 @@
             th, td {
                 padding: 8px 10px;
             }
+            
+            .email-btn {
+                padding: 12px 20px;
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <div class="container">
             <h1>Kurs 2: VolBrain / ITK-SNAP ile Beyin Yapısı Segmentasyonu ve 3B Modelleme</h1>
@@ -191,9 +192,7 @@
         </div>
     </header>
 
-    <!-- Ana İçerik -->
     <main class="container">
-        <!-- Genel Bakış -->
         <section>
             <h2 class="section-title">Genel Bakış</h2>
             <div class="card">
@@ -203,7 +202,6 @@
             </div>
         </section>
 
-        <!-- Eğitmenler -->
         <section>
             <h2 class="section-title">Eğitmenler</h2>
             <div class="card">
@@ -213,7 +211,6 @@
             </div>
         </section>
 
-        <!-- Öğrenme Çıktıları -->
         <section>
             <h2 class="section-title">Öğrenme Çıktıları</h2>
             <div class="card">
@@ -227,7 +224,6 @@
             </div>
         </section>
 
-        <!-- Program -->
         <section>
             <h2 class="section-title">Program</h2>
             <div class="card">
@@ -264,7 +260,6 @@
             </div>
         </section>
 
-        <!-- Gerekli Yazılım & Kaynaklar -->
         <section>
             <h2 class="section-title">Gerekli Yazılım & Kaynaklar</h2>
             <div class="card">
@@ -276,36 +271,32 @@
             </div>
         </section>
 
-        <!-- Hedef Kitle -->
         <section>
             <h2 class="section-title">Hedef Kitle</h2>
             <div class="card">
-                <p>Beyin yapılarının otomatik hacimsel analizini ve 3B modellemesini gerçekleştirmek isteyen nörogörüntüleme, nöroloji, radyoloji, anatomi ve sinirbilim alanlarındaki araştırmacılar, klinisyenler ve lisansüstü öğrenciler.</p>
+                <p>Beyin yapılarının otomatik hacimsel analizini ve 3B modellemesini gerçekleştirmek isteyen nörogörüntüleme, nöroloji, radyoloji ve sinirbilim alanlarındaki araştırmacılar, klinisyenler ve lisansüstü öğrenciler.</p>
             </div>
         </section>
 
-        <!-- Sertifika -->
         <section>
             <h2 class="section-title">Sertifika</h2>
             <div class="card">
-                <p>Katılımcılara resmi bir <strong>Katılım Belgesi</strong> verilecektir.</p>
+                <p>Katılımcılara <strong>Katılım Belgesi</strong> verilecektir.</p>
             </div>
         </section>
 
-        <!-- Kayıt Bölümü -->
         <section style="text-align: center; background-color: #edf2f7; padding: 3rem; border-radius: 10px;">
-            <h2 class="section-title">Katılmak isteyenler acerniyazi@gmail.com emaile yazabilirler</h2>
+            <h2 class="section-title">Workshop'a Katılın</h2>
             <p style="margin-bottom: 2rem; font-size: 1.1rem;">Rehberli uygulama ve uzman mentorluk ile nörogörüntüleme becerilerinizi geliştirin.</p>
-            <a href="#" class="btn">Şimdi Kayıt Ol</a>
+            <a href="mailto:acerniyazi@gmail.com" class="email-btn">Katılmak İçin: acerniyazi@gmail.com</a>
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">Email atarak kayıt yaptırabilirsiniz</p>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <p>© 2025 NöroGörüntüleme Workshop Serisi | OpenNeuro Akademi tarafından düzenlenmiştir</p>
         </div>
     </footer>
 </body>
-
 </html>
