@@ -1,2 +1,3 @@
-# kurs-sayfasi
-Volbrain ve ITKsnap için web sayfası
+---
+permalink: /index.html
+---
